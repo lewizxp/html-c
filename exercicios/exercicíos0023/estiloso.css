@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(to ,top, purple, darksalmon);
+}
+.bloco{
+    background-image: url(imagens/wallpaper003.jpg);
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+
+    
+}
+#b1{
+    background-position: left top;
+}
+#b2{
+    background-position: right bottom ;
+}
+#b3{
+    background-position:right top;
+}
+#b4{
+    background-position: bottom left;
+}

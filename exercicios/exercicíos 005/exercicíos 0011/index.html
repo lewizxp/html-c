@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagem dinâmina</h1>
+    <p>Tente abir esse site em vários dispositivos diferentes ou símplesmente aumente ou diminua o tamnaho no seu navegador. </p>
+    <picture>
+        <source media="(max-width:150 )" srcset="Imagens/imagem-mini.png" type="image/png">
+        <source media="(max-width:750px )" srcset="Imagens/imagem-pequena.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/imagem-media.png" type="image/png">
+        <img src="Imagens/imagem-grande.png" alt="imagem-grande">
+    </picture>
+    <p>vamos reproduzir audios</p>
+    <audio src="midia/Dead Wrong - Jeremy Blake.mp3"autoplay controls></audio>
+</body>
+</html>

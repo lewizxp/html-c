@@ -1,0 +1,25 @@
+body{
+
+   }
+h1{
+   height: 200px;
+   width: 200px;
+ background-color: burlywood;
+ border: 10px solid darksalmon ;
+ padding:23px 10px 1px 30px ;
+ margin: auto;
+ outline: darkkhaki solid 10px;
+ border-radius:10px ;
+ display: inline-block;
+
+}
+p{
+   height: 200px; 
+   width: 300px;
+   background-color: coral;
+   color: cornflowerblue;
+   padding: 25px 25px 10px 30px;
+   border: 10px solid skyblue;
+   border-radius: 10px;
+   
+}

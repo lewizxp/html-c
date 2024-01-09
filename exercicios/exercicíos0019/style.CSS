@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(26, 43, 26, 0.616) ;
+    font-family: sans-serif ;
+    font-size: 18px;
+    text-align: center;
+}
+h1{
+    color: chartreuse;
+}
+h2{
+    color: chartreuse;
+}
+.intermediário{
+    color: #89c9a19c;
+    border: 10px 10px black;
+    border-radius: ;
+}
+.básico{
+    color: rgba(147, 233, 229, 0.568);
+}
+.avançado{
+    color: antiquewhite;
+}
+#principal{
+ text-decoration: 20 px;
+ text-align: right;
+}
+.java{
+    text-align: right;
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    font-style: italic;
+}
+.under{
+    text-align: left;
+    color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+}

@@ -1,0 +1,18 @@
+@font-face {
+      font-family:'Star' ;
+      src: url('fontes/Starborn.otf') format('opentype') ,url('fontes/Starborn.ttf') format('truetype') ;
+}
+
+ 
+
+body {
+        font-family: Arial, Helvetica, sans-serif;
+}
+  h1 {  
+       font-family: 'Star', 'Times New Roman', Times, serif ;
+       font-size: 2em;
+  }   
+  h2{
+      font-family:'Star';
+      font-weight: lighter ;
+  } 

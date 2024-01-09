@@ -1,0 +1,25 @@
+body{
+    background-image: url(imagens/wallpaper002.jpg);
+    margin: auto;
+}
+div.quadrado{
+    height: 300px;
+    width: 300px;
+    background-color: darksalmon;
+
+    display: inline-block;
+    border: 2px, solid, black;
+    border-radius: 10px;
+}
+ #q1:hover{
+background-color: cadetblue;
+}
+#q2{
+ background-image: linear-gradient(to bottom, black, red);
+}
+#q3{
+background-image: linear-gradient(to top, white, purple);
+}
+#q4{
+background-image:url(imagens/pattern003.png)
+}

@@ -1,0 +1,20 @@
+backgroung{
+.Design-gráfico-1-hex { color: #401E3A; }
+.Design-gráfico-2-hex { color: #6C3873; }
+.Design-gráfico-3-hex { color: #648C51; }
+.Design-gráfico-4-hex { color: #75A653; }
+.Design-gráfico-5-hex { color: #0D0D0D; }
+}
+/* Color Theme Swatches in RGBA */
+.Design-gráfico-1-rgba { color: rgba(63, 29, 58, 1); }
+.Design-gráfico-2-rgba { color: rgba(107, 56, 114, 1); }
+.Design-gráfico-3-rgba { color: rgba(99, 140, 81, 1); }
+.Design-gráfico-4-rgba { color: rgba(117, 165, 82, 1); }
+.Design-gráfico-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Design-gráfico-1-hsla { color: hsla(309, 36, 18, 1); }
+.Design-gráfico-2-hsla { color: hsla(292, 34, 33, 1); }
+.Design-gráfico-3-hsla { color: hsla(101, 26, 43, 1); }
+.Design-gráfico-4-hsla { color: hsla(95, 33, 48, 1); }
+.Design-gráfico-5-hsla { color: hsla(0, 0, 5, 1); }
