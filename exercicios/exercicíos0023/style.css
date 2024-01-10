@@ -1,25 +1,24 @@
 body{
-    background-image: url(imagens/wallpaper002.jpg);
-    margin: auto;
+    background-image: url(imagens/wallpaper001.jpg);
 }
 div.quadrado{
-    height: 300px;
-    width: 300px;
-    background-color: darksalmon;
-
+    border: 1px solid rgba(0, 0, 0, 0.648); 
+    border-radius:5px 5px ;
+    height: 200px;
+    width: 200px;
     display: inline-block;
-    border: 2px, solid, black;
-    border-radius: 10px;
+    
 }
- #q1:hover{
-background-color: cadetblue;
+#q1{
+ background-image: url(imagens/pattern001.png);
 }
+
 #q2{
- background-image: linear-gradient(to bottom, black, red);
+ background-image: linear-gradient(to bottom,darksalmon, darkred );
 }
 #q3{
-background-image: linear-gradient(to top, white, purple);
+ background-image: url(imagens/pattern003.png) ;
 }
 #q4{
-background-image:url(imagens/pattern003.png)
+background-image: linear-gradient(to top, darkgreen, black);
 }

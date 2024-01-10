@@ -1,24 +1,20 @@
-body{
-    background-image: linear-gradient(to ,top, purple, darksalmon);
-}
-.bloco{
-    background-image: url(imagens/wallpaper003.jpg);
+div.bloco{
     height: 200px;
-    border: 2px solid black;
-    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.364);
+    border-radius: 3px 5px;
     margin: 10px;
+    background-image: url(imagens/wallpaper002.jpg);
 
-    
 }
 #b1{
-    background-position: left top;
+    background-position: top left;
 }
 #b2{
-    background-position: right bottom ;
+ background-position: right top;
 }
 #b3{
-    background-position:right top;
+ background-position: top center;
 }
 #b4{
-    background-position: bottom left;
+ background-position: center left;
 }
