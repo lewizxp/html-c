@@ -1,20 +1,29 @@
 div.bloco{
-    height: 200px;
-    border: 1px solid rgba(0, 0, 0, 0.364);
-    border-radius: 3px 5px;
-    margin: 10px;
-    background-image: url(imagens/wallpaper002.jpg);
+  
+    height:200px;
+    border: 1px solid darksalmon;
+    border-radius: 3px;
+    margin: 6px;
+
+    
 
 }
-#b1{
-    background-position: top left;
+    
+
+#q1{
+    background-image: url(imagens/wallpaper003.jpg);
+    background-position: center right;
+
 }
-#b2{
- background-position: right top;
+#q2{
+    background-image: url(imagens/wallpaper003.jpg);
+background-position:left top ;
 }
-#b3{
- background-position: top center;
+#q3{
+    background-image: url(imagens/wallpaper003.jpg);
+ background-position: right bottom;
 }
-#b4{
- background-position: center left;
-}
+ #q4{
+  background-image: url(imagens/wallpaper003.jpg);
+  background-position:  bottom left
+ }

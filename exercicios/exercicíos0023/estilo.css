@@ -2,5 +2,5 @@
 body{
     background-image:url(imagens/wallpaper004.jpg ) ;
     background-size: 200px 200px;
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
 }
