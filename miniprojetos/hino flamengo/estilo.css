@@ -61,7 +61,7 @@ border-radius: 7px;
     line-height: 2em;
     padding-left:30px;
     font-family: var(--fonte3);
-    font-size:3.5vw ;
+    font-size:2.5vw ;
 
  }
 
@@ -88,7 +88,7 @@ border-radius: 7px;
    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.333);
 }
 #img01{
-  background-image: url(imagens/zico2.jpg);
+  background-image: url(imagens/);
   background-size: cover;
   background-position: center;
 }
