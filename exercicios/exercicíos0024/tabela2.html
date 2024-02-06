@@ -5,50 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
     <style>
-table{
-    width: 500px;
-    border-collapse: collapse
-  
+        table{
+            width: 600px;
+            border-collapse: collapse;
+            border-radius: 6px;
     
-   ;
-}
-th, td{
-    border: 1px solid black;
-    border-radius: 8px;
-    
-    padding: 8px;
-}
-thead{
-  background-color: coral;  
-}
-tbody{
-    background-color: darksalmon;
-}
+        }
 
-tfoot{
-    background-color: coral;
+        caption{
+            padding: 10px;
+            font-size: 1.5em;
+            background-color: darkgray;
+        }
 
-    text-align: right;
-}
-.num{
-    text-align: right;
-}
+         thead,tfoot{
+        background-color:gray;
+        color: darkslategray;
+        border:2px solid black ;
+        padding: 6px;
+        
+
+       }
+
+
+        td{
+            border: 2px solid black;
+            background-color:darksalmon;
+            padding: 6px;
+            text-align: center;
+            
+        }
+   
+        
+        .num{
+            text-align: right;
+        }
+        tbody>tr:nth-child(odd) {
+            background-color: lightcoral;
+        }
+        
 
     </style>
 </head>
 <body>
-    <h1> Uso de tabelas  </h1>
-    <table>
-        <thead>
-            <th>Estado</th>
-            <th>população</th>
-        </thead>
-        <tbody>
+   <table>
+    <caption> População das Unidades Federativas</caption>
+    <thead>
+        <tr>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+            <th scope="col">País compaarável</th>
+            <th scope="col">natural</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
             <td>São Paulo</td>
-            <td>20000000</td>
-        </tbody>
-    </table>
+            <td class="num">44 411 238</td>
+            <td>Argentina</td>
+            <td>Paulista</td>
+        </tr>
 
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="num">20 538 718	</td>
+            <td>Burquina Fasso</td>
+            <td>Mineiro</td>
+        </tr>
+   
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="num"> 16 054 524	</td>
+            <td>Camboja</td>
+            <td>Carioca</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <th scope="row">  Total de Habitantes</th>
+            <td><strong>210.147.125</strong></td>
+
+        </tr>
+    </tfoot>
+
+   </table>
    
 </body>
 </html>
