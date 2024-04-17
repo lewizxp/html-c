@@ -7,19 +7,26 @@
 </head>
 <body>
     <h1>Teste de formúlario</h1>
-    <form action="cadastro.php" method="post">
+    <form action="cadastro.php" method="post" autocomplete="off">
         <p>
             <label for="iusuario"> Usuário:</label>
-            <input type="text" name="usuario" id="iusuario" required maxlength="9">
-        </p>
+            <input type="text" name="usuario" id="iusuario" required maxlength="9" size="10" placeholder="Digite seu usuário">
+        </p> 
 
         <p>
             <label for="isenha"> Senha:</label>
-            <input type="password" name="senha" id="isenha" required minlength="6">
+            <input type="password" name="senha" id="isenha" required minlength="6" size="13">
         </p>
         <p>
            <input type="submit" name="enviar" id="ienvi" value="Enviar">
            <input type="reset" name="limpar" id="ilimpar" value="Limpar">
+
+        </p>
+
+        <p>
+            <label for="isexo"> Sexo:</label>
+            <input type="text" name="sexo" id="isexo" required maxlength="9" minlength="8">
+
 
         </p>
         
