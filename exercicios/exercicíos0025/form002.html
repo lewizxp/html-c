@@ -7,35 +7,31 @@
 </head>
 <body>
     <h1>Teste de formúlario</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
-        <p>
-            <label for="iusuario"> Usuário:</label>
-            <input type="text" name="usuario" id="iusuario" required maxlength="9" size="10" placeholder="Digite seu usuário">
-        </p> 
 
-        <p>
-            <label for="isenha"> Senha:</label>
-            <input type="password" name="senha" id="isenha" required minlength="6" size="13">
-        </p>
-        <p>
-           <input type="submit" name="enviar" id="ienvi" value="Enviar">
-           <input type="reset" name="limpar" id="ilimpar" value="Limpar">
+   <form action="cadastro.php" method="post" autocomplete="on ">
 
-        </p>
+    <p>
+        <label for="iusu">Usuário:</label>
+        <input type="text" name="usuario" id="iusu" required minlength="9" placeholder="Digite seu Usuário" autocomplete="username">
+    </p>
 
-        <p>
-            <label for="isexo"> Sexo:</label>
-            <input type="text" name="sexo" id="isexo" required maxlength="9" minlength="8">
+   <p>
+       <label for="isenha">Senha:</label>
+       <input type="password" name="senha" id="isenha" required minlength="7" placeholder="Digite sua senha" autocomplete="current-password">
+   </p>
+
+   <p>
+    <label for="icpf">CPF:</label>
+    <input type="number" name="cpf" id="icpf" required maxlength="11">
 
 
-        </p>
-        
-        
+   </p>
+
+   <input type="submit" value="Enviar">
+   <input type="reset" name="limpar" id="iLimpar" value="Limpar">
 
 
-
-
-    </form>
+   </form>
     
 </body>
 </html>

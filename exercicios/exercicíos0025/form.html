@@ -8,9 +8,10 @@
 <body>
     <h1>Meu primeiro formulário </h1>
 
-      <form action="cadastro.php" method="post">
-        <label for="inome"> Nome:</label>
-        <input type="text" name="nome" id="inome" >   <br>
+      <form action="cadastro.php" method="post" autocomplete="off">
+       <label for="inome">Nome:</label>
+       <input type="text" name="nome" id="inome">
+       <br>
 
         <label for="iCPF">CPF:</label>
         <input type="text" name="CPF" id="iCPF">
@@ -19,9 +20,9 @@
         <label for="isenha">Senha:</label>
         <input type="password" name="senha" id="isenha">
         <br>
-
-
-        <input type="submit" name="enviar" id="ienviar" value="enviar">
+              
+        <input type="submit" id="ienviar" value="Enviar">
+        <input type="reset" value="Limpar">
 
 
 
