@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,36 +8,38 @@
 <body>
     <h1>Teste de Formulário</h1>
     <form action="cadastro.php" autocomplete="on" method="post">
-      
+
         <p>
             <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" required maxlength="23" autocomplete="name" placeholder="Digite deu nome">
-            
+            <input type="text" name="nome" id="inome" placeholder="Digite seu nome" maxlength="10" required autocomplete="name">
+
         </p>
 
         <p>
-            <label for="imedia">Média</label>
-            <input type="number" id="imedia" name="media" min="0" max="10" placeholder="0  10" step="0,6" required>
+            <label for="imedi">Média:</label>
+            <input type="number" name="medi" id="imedi" max="10" min="0" value="5" step="0.1" required autocomplete="cc-number">
 
-            
         </p>
-        <p>
-            <label for="iperi">Período letivo</label>
-            <input type="month" name="periodo" id="iperi" value="2022-02">
-            
-        </p>
-        <p><label for="time">Hora da prova
-        <input type="time" name="hora" id="time"></p>
-
-
         
-
         <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+            <label for="iperi">Périodo</label>
+            <input type="month" name="peri" id="iperi" value="2024-04" required>
         </p>
 
+        <p>
+            <label for="idia">Dia da Prova</label>
+            <input type="date" name="dia" id="idia" value="2024-04-25" required autocomplete="bday-day">
+        </p>
 
+        <p>
+            <label for="ihora"></label>
+            <input type="time" name="hora" id="ihora">
+        </p>
+      <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+      </p>
+        
 
 
     </form>
