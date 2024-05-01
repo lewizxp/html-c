@@ -7,11 +7,17 @@
 </head>
 <body>
     <h1>Teste de Formulário</h1>
-    <form action="cadastro.php" autocomplete="on" method="post">
+    <form action="cadastro.php" autocomplete="off" method="post">
 
         <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" placeholder="Digite seu nome" maxlength="10" required autocomplete="name">
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required maxlength="10" minlength="5">
+
+        </p>
+
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" placeholder="Digite suua senha" autocomplete="new-password" required>
 
         </p>
 
@@ -37,7 +43,7 @@
         </p>
       <p>
         <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
+        <input type="reset" value="Limpar" >
       </p>
         
 
